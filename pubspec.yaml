@@ -20,6 +20,7 @@ dependencies:
   logger: ^2.0.1
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.3.2
+  smooth_page_indicator: ^1.1.0
 
   # icons
   iconsax: ^0.0.8
@@ -30,13 +31,22 @@ dependencies:
   get_storage: ^2.1.1
 
   # product platform_specific:
+
 flutter_native_splash:
-  color: "#323232"
-  image: assets/logos/logo-color.png
+  color: "#FFFFFF"
+  color_dark: "#272727"
   android_12:
-    image: assets/logos/logo-color.png
+    image: assets/logos/luna-store-splash-logo-white.png
+    image_dark: assets/logos/luna-store-splash-logo-black.png
   android: true
   ios: true
+  web: false
+
+
+#  color: "#FFFFFF"
+#  color_dark: "#272727"
+#  image: assets/logos/luna-store-splash-logo-black-removebg-preview.png
+#  image_dark: assets/logos/luna-store-splash-logo-white-removebg-preview.png
 
 
 
@@ -58,8 +68,8 @@ flutter:
 
   #-------------------------- local assets --------------------------#
   assets:
-    - assets/logos/luna-store-logo-no-background.png
-    - assets/images/
+    - assets/logos/
+    - assets/images/onboarding_images
     - assets/logos/
 
   #-------------------------- local fonts --------------------------#

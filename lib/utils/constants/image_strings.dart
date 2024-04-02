@@ -10,4 +10,9 @@ class TImages {
   /// -- Social Logos
   static const String google = "assets/logos/google-icon.png";
   static const String facebook = "assets/Logos/facebook-icon.png";
-}
+
+  /// -- OnBoarding Images
+  static const String onBoardingImage1 = "assets/images/onboarding_images/sammy-line-sailor-on-mast-looking-through-telescope.gif";
+  static const String onBoardingImage2 = "assets/images/onboarding_images/sammy-line-woman-in-shopping-cart-placing-order-on-smartphone.gif";
+  static const String onBoardingImage3 = "assets/images/onboarding_images/sammy-line-man-and-dog-delivering-packages-on-a-moped.gif";
+  }
