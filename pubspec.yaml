@@ -69,7 +69,9 @@ flutter:
   #-------------------------- local assets --------------------------#
   assets:
     - assets/logos/
-    - assets/images/onboarding_images
+    - assets/images/onboarding_images/image1.gif
+    - assets/images/onboarding_images/image2.gif
+    - assets/images/onboarding_images/image3.gif
     - assets/logos/
 
   #-------------------------- local fonts --------------------------#
