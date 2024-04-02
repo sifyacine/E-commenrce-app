@@ -19,6 +19,7 @@ dependencies:
   intl: ^0.18.1
   logger: ^2.0.1
   url_launcher: ^6.1.12
+  flutter_native_splash: ^2.3.2
 
   # icons
   iconsax: ^0.0.8
@@ -29,6 +30,14 @@ dependencies:
   get_storage: ^2.1.1
 
   # product platform_specific:
+flutter_native_splash:
+  color: "#323232"
+  image: assets/logos/logo-color.png
+  android_12:
+    image: assets/logos/logo-color.png
+  android: true
+  ios: true
+
 
 
 
@@ -49,7 +58,7 @@ flutter:
 
   #-------------------------- local assets --------------------------#
   assets:
-    - assets/logos/
+    - assets/logos/luna-store-logo-no-background.png
     - assets/images/
     - assets/logos/
 
