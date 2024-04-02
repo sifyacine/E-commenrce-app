@@ -1,19 +1,15 @@
-import 'package:ecommerceapp/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
+import 'app.dart';
+
 void main() {
+  // Todo: Add Widgets Binding
+  // Todo: Init Local Storage
+  // Todo: Await Notive Splash
+  // Todo: Initialize Firebase
+  // Todo: Initialize Authentication
+
+
   runApp(const MyApp());
 }
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      themeMode: ThemeMode.system,
-      theme: TAppTheme.lightTheme,
-      darkTheme: TAppTheme.darkTheme,
-
-    );
-  }
-}
