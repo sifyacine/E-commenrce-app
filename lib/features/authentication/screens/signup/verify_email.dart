@@ -1,3 +1,4 @@
+import 'package:ecommerceapp/common/widgets/success_screen/success_acreen.dart';
 import 'package:ecommerceapp/features/authentication/screens/login/login_screen.dart';
 import 'package:ecommerceapp/utils/constants/image_strings.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';
@@ -49,8 +50,13 @@ class VerifyEmailScreen extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {
-                    Get.to(() => const VerifyEmailScreen());
-                  },
+                    Get.to(() => SuccessScreen(
+                      image: TImages.staticSuccessIllustration,
+                      title: TTexts.yourAccountCreatedTitle,
+                      subtitle: TTexts.yourAccountCreatedSudTitle,
+                      onPressed: () => Get.to(() => const LoginScreen()),
+                    ));
+                                    },
                   child: const Text(
                     TTexts.tContinue,
                   ),
