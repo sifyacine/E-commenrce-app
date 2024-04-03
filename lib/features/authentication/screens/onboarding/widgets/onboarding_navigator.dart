@@ -1,3 +1,4 @@
+import 'package:ecommerceapp/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -13,6 +14,7 @@ class OnBoardNavigation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = OnBoardingController.instance;
     final isDark = THelperFunctions.isDarkMode(context);
 
     return Positioned(
@@ -21,7 +23,8 @@ class OnBoardNavigation extends StatelessWidget {
       child: SmoothPageIndicator(
         effect: ExpandingDotsEffect(
             activeDotColor: isDark ? TColors.dark : TColors.light, dotHeight: 6),
-        controller: PageController(),
+        controller: controller.pagecontroller,
+        onDotClicked: controller.dotNavigationClick,
         count: 3,
       ),
     );

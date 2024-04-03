@@ -5,7 +5,7 @@ import 'app.dart';
 void main() {
   // Todo: Add Widgets Binding
   // Todo: Init Local Storage
-  // Todo: Await Notive Splash
+  // Todo: Await Native Splash
   // Todo: Initialize Firebase
   // Todo: Initialize Authentication
 
