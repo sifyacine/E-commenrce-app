@@ -69,9 +69,13 @@ flutter:
   #-------------------------- local assets --------------------------#
   assets:
     - assets/logos/
-    - assets/images/onboarding_images/image1.gif
-    - assets/images/onboarding_images/image2.gif
-    - assets/images/onboarding_images/image3.gif
+    - assets/images/onboarding_images/
+    - assets/images/animations/sammy-Line-workout.gif
+    - assets/images/animations/sammy-line-sale.png
+    - assets/images/animations/sammy-Line-success.png
+    - assets/images/animations/sammy-line-come-back-later.png
+    - assets/images/animations/sammy-Line-man-receives-a-mail.png
+    - assets/images/animations/sammy-Line-travel-backpack-with-passport-and-air-ticket.gif
     - assets/logos/
 
   #-------------------------- local fonts --------------------------#

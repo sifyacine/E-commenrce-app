@@ -51,4 +51,5 @@ class TTexts {
   static const String emailNotReceivedMessage = "Didn't get the email? Check your junk/spam or resend it.";
   static const String yourAccountCreatedTitle = "Your account successfully created!";
   static const String yourAccountCreatedSudTitle = "Welcome to Your Ultimate Shopping Destination: Your Account is Created,";
+  static const String tContinue = "continue";
 }
