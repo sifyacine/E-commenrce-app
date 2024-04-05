@@ -21,6 +21,7 @@ dependencies:
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.3.2
   smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
 
   # icons
   iconsax: ^0.0.8
@@ -77,6 +78,18 @@ flutter:
     - assets/images/animations/sammy-Line-man-receives-a-mail.png
     - assets/images/animations/sammy-Line-travel-backpack-with-passport-and-air-ticket.gif
     - assets/logos/
+    - assets/icons/categories/icons8-sports-48.png
+    - assets/icons/categories/icons8-t-shirt-50.png
+    - assets/icons/categories/icons8-pair-of-sneakers-50.png
+    - assets/icons/categories/icons8-cosmetics-50.png
+    - assets/icons/categories/icons8-heart-with-dog-paw-50.png
+    - assets/icons/categories/icons8-toy-50.png
+    - assets/icons/categories/icons8-furniture-50.png
+    - assets/icons/categories/icons8-sparkling-diamond-50.png
+    - assets/icons/categories/icons8-electronics-50.png
+    - assets/images/banners/banner-1.jpg
+    - assets/images/banners/banner-2.avif
+    - assets/images/banners/banner-3.jpg
 
   #-------------------------- local fonts --------------------------#
   fonts:
