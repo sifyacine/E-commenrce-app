@@ -11,16 +11,18 @@ import '../texts/brandicon_verify_button.dart';
 
 class TBrandCard extends StatelessWidget {
   const TBrandCard({
-  super.key,
+  super.key, required this.showBorder, this.onTab,
   });
+  final bool showBorder;
+  final void Function()? onTab;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {},
+      onTap: onTab,
       child: TRoundedContainer(
         padding: const EdgeInsets.all(TSizes.sm),
-        showBorder: true,
+        showBorder: showBorder,
         backgroundColor: Colors.transparent,
         child: Row(
           children: [

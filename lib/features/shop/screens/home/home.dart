@@ -21,26 +21,26 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             /// header part
-            TPrimaryHeaderContainer(
+            const TPrimaryHeaderContainer(
               child: Column(
                 children: [
                   /// appBar
-                  const THomeAppBar(),
-                  const SizedBox(
+                  THomeAppBar(),
+                  SizedBox(
                     height: TSizes.spaceBtwSections,
                   ),
 
                   /// searchbar
-                  const TSearchContainer(
+                  TSearchContainer(
                     text: 'Search in store',
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: TSizes.spaceBtwSections,
                   ),
 
                   /// categories
                   Padding(
-                    padding: const EdgeInsets.only(left: TSizes.defaultSpace),
+                    padding: EdgeInsets.only(left: TSizes.defaultSpace),
                     child: Column(
                       children: [
                         /// heading
@@ -48,12 +48,12 @@ class HomeScreen extends StatelessWidget {
                           title: 'Product Categories',
                           textColor: TColors.white,
                         ),
-                        const SizedBox(
+                        SizedBox(
                           height: TSizes.spaceBtwItems,
                         ),
 
                         /// categories
-                        const THomeCategories()
+                        THomeCategories()
                       ],
                     ),
                   ),
@@ -80,7 +80,7 @@ class HomeScreen extends StatelessWidget {
 
                   /// section heading
                   TSectionHeading(title: 'Popular products', onPressed: (){}, showActionButton: true,),
-                  SizedBox(height: TSizes.spaceBtwItems,),
+                  const SizedBox(height: TSizes.spaceBtwItems,),
 
 
                   /// -- popular products
