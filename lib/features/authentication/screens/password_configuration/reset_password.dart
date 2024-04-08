@@ -20,17 +20,17 @@ class ResetPassword extends StatelessWidget {
               onPressed: () {
                 Get.back();
               },
-              icon: Icon(CupertinoIcons.clear))
+              icon: const Icon(CupertinoIcons.clear))
         ],
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(TSizes.defaultSpace),
+          padding: const EdgeInsets.all(TSizes.defaultSpace),
           child: Column(
             children: [
               Image(
                 width: THelperFunctions.screenWidth() * 0.6,
-                image: AssetImage(
+                image: const AssetImage(
                   TImages.deliveredEmailIllustration,
                 ),
               ),

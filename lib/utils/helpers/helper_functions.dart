@@ -71,7 +71,6 @@ class THelperFunctions {
   }
   static bool isDarkMode(BuildContext context) {
     var brightness = MediaQuery.of(context).platformBrightness;
-    print(brightness);
     return brightness == Brightness.dark;
   }
 

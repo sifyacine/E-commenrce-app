@@ -25,7 +25,7 @@ class TPromoSlider extends StatelessWidget {
             viewportFraction: 1,
             onPageChanged: (index, _) => controller.updatePageIndecator(index),
           ),
-          items: banners.map((url) => RoundedImage(imageUrl: url)).toList(),
+          items: banners.map((url) => TRoundedImage(imageUrl: url)).toList(),
         ),
         const SizedBox(
           height: TSizes.spaceBtwItems,

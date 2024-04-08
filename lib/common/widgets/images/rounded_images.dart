@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../utils/constants/colors.dart';
 import '../../../utils/constants/sizes.dart';
 
-class RoundedImage extends StatelessWidget {
-  const RoundedImage({
+class TRoundedImage extends StatelessWidget {
+  const TRoundedImage({
     Key? key,
     this.width,
     this.height,
@@ -42,7 +42,7 @@ class RoundedImage extends StatelessWidget {
         decoration: BoxDecoration(
           border: border,
           color: backgroundColor,
-          borderRadius: BorderRadius.circular(borderRadius),
+          borderRadius: applyImageRadius? BorderRadius.circular(borderRadius) : BorderRadius.zero,
         ),
         child: ClipRRect(
           borderRadius: applyImageRadius

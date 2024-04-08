@@ -1,4 +1,3 @@
-import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded-container.dart';
 import 'package:ecommerceapp/common/widgets/products/product_cards/product_cards_vertical.dart';
 import 'package:ecommerceapp/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:ecommerceapp/features/shop/screens/home/widgets/home_categories.dart';
@@ -9,6 +8,7 @@ import 'package:ecommerceapp/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
 import '../../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
 import '../../../../common/widgets/custom_shapes/containers/search_bar_container.dart';
+import '../../../../common/widgets/layout/grid_layout.dart';
 import '../../../../common/widgets/texts/section_heading.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -62,21 +62,24 @@ class HomeScreen extends StatelessWidget {
             ),
 
             /// body part
-            const Padding(
-              padding: EdgeInsets.all(TSizes.defaultSpace),
+            Padding(
+              padding: const EdgeInsets.all(TSizes.defaultSpace),
               child: Column(
                 children: [
-                  TPromoSlider(
+                  /// promo slider
+                  const TPromoSlider(
                     banners: [
                       TImages.promoBanner1,
                       TImages.promoBanner2,
                       TImages.promoBanner3,
                     ],
                   ),
-                  SizedBox(height: TSizes.spaceBtwSections,),
+                  const SizedBox(
+                    height: TSizes.spaceBtwSections,
+                  ),
 
-                  TProductCardsVertical(),
-
+                  /// -- popular products
+                  TGridLayout(itemCount: 4, itemBuilder: (_, index) => const TProductCardsVertical(),  ),
                 ],
               ),
             ),

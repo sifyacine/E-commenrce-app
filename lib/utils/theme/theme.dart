@@ -24,7 +24,7 @@ class TAppTheme {
     appBarTheme: TAppBarTheme.lightAppBarTheme,
     checkboxTheme: TCheckBoxTheme.lightCheckBoxTheme,
     bottomSheetTheme: TBottomSheetTheme.lightBottomSheetThem,
-    elevatedButtonTheme: TElevatedBottonTheme.lightElevatedButtonTheme,
+    elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
     inputDecorationTheme: TTextFormFieldTheme.lightInputDecorationTheme,
     outlinedButtonTheme: TOutLinedButtonTheme.lightOutlinedButtonTheme,
   );
@@ -39,7 +39,7 @@ class TAppTheme {
     appBarTheme: TAppBarTheme.darkAppBarTheme,
     checkboxTheme: TCheckBoxTheme.darkCheckBoxTheme,
     bottomSheetTheme: TBottomSheetTheme.darkBottomSheetThem,
-    elevatedButtonTheme: TElevatedBottonTheme.darkElevatedButtonTheme,
+    elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme,
     inputDecorationTheme: TTextFormFieldTheme.darkInputDecorationTheme,
     outlinedButtonTheme: TOutLinedButtonTheme.darkOutlinedButtonTheme,
   );

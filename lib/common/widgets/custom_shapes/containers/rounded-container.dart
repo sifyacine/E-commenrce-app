@@ -28,14 +28,16 @@ class TRoundedContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        width: width,
-        height: height,
-        padding: padding,
-        margin: margin,
-        decoration: BoxDecoration(
-          color: backgroundColor,
-          borderRadius: BorderRadius.circular(radius),
-        ));
+      width: width,
+      height: height,
+      padding: padding,
+      margin: margin,
+      decoration: BoxDecoration(
+        color: backgroundColor,
+        borderRadius: BorderRadius.circular(radius),
+      ),
+      child: child,
+    );
 // BoxDecoration
   }
 }

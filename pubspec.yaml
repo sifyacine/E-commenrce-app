@@ -71,25 +71,44 @@ flutter:
   assets:
     - assets/logos/
     - assets/images/onboarding_images/
-    - assets/images/animations/sammy-Line-workout.gif
-    - assets/images/animations/sammy-line-sale.png
-    - assets/images/animations/sammy-Line-success.png
-    - assets/images/animations/sammy-line-come-back-later.png
-    - assets/images/animations/sammy-Line-man-receives-a-mail.png
-    - assets/images/animations/sammy-Line-travel-backpack-with-passport-and-air-ticket.gif
+    - assets/images/animations/
     - assets/logos/
-    - assets/icons/categories/icons8-sports-48.png
-    - assets/icons/categories/icons8-t-shirt-50.png
-    - assets/icons/categories/icons8-pair-of-sneakers-50.png
-    - assets/icons/categories/icons8-cosmetics-50.png
-    - assets/icons/categories/icons8-heart-with-dog-paw-50.png
-    - assets/icons/categories/icons8-toy-50.png
-    - assets/icons/categories/icons8-furniture-50.png
-    - assets/icons/categories/icons8-sparkling-diamond-50.png
-    - assets/icons/categories/icons8-electronics-50.png
-    - assets/images/banners/banner-1.jpg
-    - assets/images/banners/banner-2.avif
-    - assets/images/banners/banner-3.jpg
+    - assets/icons/categories/
+    - assets/images/banners/
+    - assets/images/products/nike-shoes.png
+    - assets/images/products/nike-shoes.png
+    - assets/images/products/product-jacket.png
+    - assets/images/products/product-jeans.png
+    - assets/images/products/product-shirt.png
+    - assets/images/products/product-slippers.png
+    - assets/images/products/nike-air-redandblack.png
+    - assets/images/products/nike-air-orange.jpg
+    - assets/images/products/nike-air-white-magenta.webp
+    - assets/images/products/nike-air-white and red.jpg
+    - assets/images/products/ssmsung-s23-mobile.jpg
+    - assets/images/products/samsung-s23-mobile-white-back.png
+    - assets/images/products/samsung-s23-back.webp
+    - assets/images/products/Apple_iPhone-13-Pro_iPhone-13-Pro-Max.jpg
+    - assets/images/products/Iphone-13-pro-max-back.jpg
+    - assets/images/products/iphone-13-pro-max-dual-side.jpg
+    - assets/images/products/apple-iphone-13-pro-max-front.png
+    - assets/images/products/toni-dogfood.png
+    - assets/images/products/nike air jordar 4 single blue.jpg
+    - assets/images/products/nike air jordar 4 single orange.jpg
+    - assets/images/products/nike air max.webp
+    - assets/images/products/nike backetball shoe green black.webp
+    - assets/images/products/nike wild horse.jpg
+    - assets/images/products/track-suit-black.jpg
+    - assets/images/products/track-suit-blue.jpg
+    - assets/images/products/track suit red.jpg
+    - assets/images/products/track-suit-parrot-green.jpg
+    - assets/images/products/adidas-football.jpg
+    - assets/images/products/baseball-bat.jpg
+    - assets/images/products/criket-bat.jpg
+    - assets/images/products/tennis-racket.webp
+    - assets/images/products/bedroom-bed.jpg
+    - assets/images/products/bedroom-lamp.jpg
+
 
   #-------------------------- local fonts --------------------------#
   fonts:
