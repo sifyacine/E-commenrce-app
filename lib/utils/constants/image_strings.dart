@@ -78,6 +78,8 @@ class TImages {
   static const String productImage33 = "assets/images/products/bedroom-lamp.jpg";
 
 
+  /// brands icons
+  static const String nikeIcon = "assets/icons/brands/nike-icon.png";
   /// user image
   static const String user = "assets/images/user/user-image.png";
 

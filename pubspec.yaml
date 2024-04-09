@@ -109,6 +109,7 @@ flutter:
     - assets/images/products/bedroom-bed.jpg
     - assets/images/products/bedroom-lamp.jpg
     - assets/images/user/user-image.png
+    - assets/icons/brands/nike-icon.png
 
 
   #-------------------------- local fonts --------------------------#
