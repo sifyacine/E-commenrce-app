@@ -4,17 +4,26 @@
 
  app definition:
 
- app configuration:
+ I- app configuration:
     1- create new project, setup a professional folder structure
     2- light & dark theme setup, includes buttons, textFields, appBar, chip, and few others
     3- create helper functions, constants, & utility classes
- login design:
+
+
+
+    
+ II- login design:
     1- native splash screen
     2- 3 onBoarding screens
     3- register screen with email verification and success screen
     4- login screen
     5- forget password and reset password
- E-store design:
+
+
+
+
+    
+ III- E-store design:
     Bottom navigation
     curved design challenge with background
     custom appbar
@@ -35,7 +44,11 @@
     order screen
     sub-categories with horizontal product scrolling view all products
     view all brands and brand specific products
- login backend:
+
+
+
+    
+ VI- login backend:
     firebase setup
     onBoarding single time appearance(local storage)
     register user an email verification(email and password authentication - store data in firebase)
@@ -43,7 +56,11 @@
     google sign in
     facebook sign in
     forget password and reset password
- E-store backend:
+
+
+
+    
+ V- E-store backend:
     fetch categories
     fetch brands
     fetch products(create stream to reduce the reads and writes of firebase)
