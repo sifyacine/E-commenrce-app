@@ -1,3 +1,4 @@
+import 'package:ecommerceapp/features/personalization/screens/settings/settings.dart';
 import 'package:ecommerceapp/features/shop/screens/home/home.dart';
 import 'package:ecommerceapp/features/shop/screens/store/store.dart';
 import 'package:ecommerceapp/features/shop/screens/wishlist/wishlist.dart';
@@ -39,7 +40,7 @@ class NavigationMenu extends StatelessWidget {
 class NavigationController extends GetxController {
   final Rx<int> selectedIndex = 0.obs;
 
-  final screens = [const HomeScreen(), const StorePage(), const WishlistPage(), Container(color: Colors.purpleAccent,),];
+  final screens = [const HomeScreen(), const StorePage(), const WishlistPage(), const SettingsPage()];
 
 }
 

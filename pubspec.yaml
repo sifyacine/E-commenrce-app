@@ -108,6 +108,7 @@ flutter:
     - assets/images/products/tennis-racket.webp
     - assets/images/products/bedroom-bed.jpg
     - assets/images/products/bedroom-lamp.jpg
+    - assets/images/user/user-image.png
 
 
   #-------------------------- local fonts --------------------------#
