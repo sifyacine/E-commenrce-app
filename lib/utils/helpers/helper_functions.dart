@@ -8,8 +8,8 @@ class THelperFunctions {
     /// Define your product specific colors here and it will match the attribute colors and show specific
     if (value == 'Green') {
       return Colors.green;
-    } else if (value == 'Green') {
-      return Colors.green;
+    } else if (value == 'Yellow') {
+      return Colors.yellow;
     } else if (value == 'Red') {
       return Colors.red;
     } else if (value == 'Blue') {

@@ -21,7 +21,6 @@ dependencies:
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.3.2
   smooth_page_indicator: ^1.1.0
-  carousel_slider: ^4.2.1
 
   # icons
   iconsax: ^0.0.8
@@ -32,6 +31,9 @@ dependencies:
   get_storage: ^2.1.1
 
   # product platform_specific:
+  carousel_slider: ^4.2.1
+  readmore: ^2.2.0
+  flutter_rating_bar: ^4.0.1
 
 flutter_native_splash:
   color: "#FFFFFF"

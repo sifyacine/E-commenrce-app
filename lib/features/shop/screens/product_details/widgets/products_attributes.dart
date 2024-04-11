@@ -5,6 +5,7 @@ import 'package:ecommerceapp/common/widgets/texts/section_heading.dart';
 import 'package:ecommerceapp/utils/constants/colors.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';
 import 'package:ecommerceapp/utils/helpers/helper_functions.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../common/widgets/chips/choice_chip.dart';
@@ -96,14 +97,44 @@ class TProductAttributes extends StatelessWidget {
 
         /// attributes
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const TSectionHeading(title: 'Colors'),
-            const SizedBox(
-              height: TSizes.spaceBtwItems / 2,
+            const SizedBox(height: TSizes.spaceBtwItems / 2),
+            Wrap(
+              spacing: 6,
+              children: [
+                TChoiceChip(
+                  text: 'Green',
+                  selected: true,
+                  onSelected: (value) {},
+                ),
+                TChoiceChip(
+                    text: 'Blue', selected: false, onSelected: (value) {}),
+                TChoiceChip(
+                    text: 'Yellow', selected: false, onSelected: (value) {}),
+              ],
             ),
-            TChoiceChip(text: '', selected: true,)
           ],
-        )
+        ),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const TSectionHeading(title: 'Sizes'),
+            const SizedBox(height: TSizes.spaceBtwItems / 2),
+            Wrap(
+              spacing: 10,
+              children: [
+                TChoiceChip(
+                    text: 'EU 34', selected: true, onSelected: (value) {}),
+                TChoiceChip(
+                    text: 'EU 36', selected: false, onSelected: (value) {}),
+                TChoiceChip(
+                    text: 'EU 38', selected: false, onSelected: (value) {}),
+              ],
+            ),
+          ],
+        ),
       ],
     );
   }
