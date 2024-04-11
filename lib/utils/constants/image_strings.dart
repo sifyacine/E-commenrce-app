@@ -83,5 +83,16 @@ class TImages {
   /// user image
   static const String user = "assets/images/user/user-image.png";
 
+  /// payment method
+  static const String paypal = "assets/icons/payment-methods/paypal-icon.png";
+  static const String applePay = "assets/icons/payment-methods/apple-pay.png";
+  static const String googlePay = "assets/icons/payment-methods/google-pay.png";
+  static const String creditCard = "assets/icons/payment-methods/credit-card.png";
+  static const String masterCard = "assets/icons/payment-methods/master-card.png";
+  static const String visa = "assets/icons/payment-methods/visa.png";
+  static const String payStock = "assets/icons/payment-methods/paystock.png";
+  static const String payTm = "assets/icons/payment-methods/paytm.png";
+  static const String successfullyPaymentIcon = "assets/icons/payment-methods/payment-seccussfully.gif";
+
 
 }

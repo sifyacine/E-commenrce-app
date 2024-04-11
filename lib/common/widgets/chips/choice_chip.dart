@@ -1,6 +1,5 @@
 import 'package:ecommerceapp/common/widgets/custom_shapes/containers/circular_container.dart';
 import 'package:ecommerceapp/utils/helpers/helper_functions.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../../utils/constants/colors.dart';

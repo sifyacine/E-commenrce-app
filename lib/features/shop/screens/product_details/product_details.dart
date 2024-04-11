@@ -5,8 +5,10 @@ import 'package:ecommerceapp/features/shop/screens/product_details/widgets/produ
 import 'package:ecommerceapp/features/shop/screens/product_details/widgets/product_meta_data.dart';
 import 'package:ecommerceapp/features/shop/screens/product_details/widgets/products_attributes.dart';
 import 'package:ecommerceapp/features/shop/screens/product_details/widgets/rating_share_widget.dart';
+import 'package:ecommerceapp/features/shop/screens/product_reviews/product_reviews.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:readmore/readmore.dart';
 
@@ -16,7 +18,7 @@ class ProductDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: TBottomAddToCart(),
+      bottomNavigationBar: const TBottomAddToCart(),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -68,8 +70,8 @@ class ProductDetails extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      TSectionHeading(title: "Reviews(199) ", onPressed: (){}),
-                      IconButton(onPressed: (){}, icon: const Icon(Iconsax.arrow_right_3, size: 18,),),
+                      const TSectionHeading(title: "Reviews(199) ", ),
+                      IconButton(onPressed: (){ Get.to(() => const ProductReviewsScreen());}, icon: const Icon(Iconsax.arrow_right_3, size: 18,),),
                     ],
                   ),
 

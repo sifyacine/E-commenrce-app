@@ -10,6 +10,7 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../common/widgets/list_tiles/user_profile_tile.dart';
+import '../address/addresses.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({Key? key}) : super(key: key);
@@ -52,7 +53,7 @@ class SettingsPage extends StatelessWidget {
                   const TSectionHeading(title: 'Account Settings', showActionButton: false,),
                   const SizedBox(height: TSizes.spaceBtwItems,),
 
-                  TSettingsMenuTile(icon: Iconsax.safe_home,title: 'My Addresses', subtitle: 'Set shopping delivery address', onTab: (){},),
+                  TSettingsMenuTile(icon: Iconsax.safe_home,title: 'My Addresses', subtitle: 'Set shopping delivery address', onTab: (){ Get.to(() => const AddressesScreen());},),
                   TSettingsMenuTile(icon: Iconsax.shopping_cart,title: 'My Cart', subtitle: 'Add remove products and move to checkout', onTab: (){},),
                   TSettingsMenuTile(icon: Iconsax.bag_tick,title: 'My Orders', subtitle: 'In-progress and completed orders ', onTab: (){},),
                   TSettingsMenuTile(icon: Iconsax.bank,title: 'Bank Account', subtitle: 'Withdraw balance to registered bank account', onTab: (){},),
@@ -62,7 +63,7 @@ class SettingsPage extends StatelessWidget {
 
                   /// app settings
                   const SizedBox(height: TSizes.spaceBtwSections,),
-                  const TSectionHeading(title: 'App Settingd', showActionButton: false,),
+                  const TSectionHeading(title: 'App Settings', showActionButton: false,),
                   const SizedBox(height: TSizes.spaceBtwItems,),
                   TSettingsMenuTile(icon: Iconsax.document_upload ,title: 'Load data', subtitle: 'Upload data to your cloud firebase', onTab: (){},),
                   TSettingsMenuTile(icon: Iconsax.location ,title: 'Geolocation', subtitle: 'USet recommendation based on location  ', onTab: (){}, trailing: Switch(value: true, onChanged: (value){},),),

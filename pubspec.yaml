@@ -112,6 +112,15 @@ flutter:
     - assets/images/products/bedroom-lamp.jpg
     - assets/images/user/user-image.png
     - assets/icons/brands/nike-icon.png
+    - assets/icons/payment-methods/paypal-icon.png
+    - assets/icons/payment-methods/apple-pay.png
+    - assets/icons/payment-methods/google-pay.png
+    - assets/icons/payment-methods/credit-card.png
+    - assets/icons/payment-methods/master-card.png
+    - assets/icons/payment-methods/visa.png
+    - assets/icons/payment-methods/paystock.png
+    - assets/icons/payment-methods/paytm.png
+    - assets/icons/payment-methods/payment-seccussfully.gif
 
 
   #-------------------------- local fonts --------------------------#

@@ -5,7 +5,6 @@ import 'package:ecommerceapp/common/widgets/texts/section_heading.dart';
 import 'package:ecommerceapp/utils/constants/colors.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';
 import 'package:ecommerceapp/utils/helpers/helper_functions.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../common/widgets/chips/choice_chip.dart';

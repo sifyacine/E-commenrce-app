@@ -1,6 +1,6 @@
 import 'package:ecommerceapp/common/styles/shadows.dart';
 import 'package:ecommerceapp/common/widgets/images/rounded_images.dart';
-import 'package:ecommerceapp/features/shop/screens/product_details/product-details.dart';
+import 'package:ecommerceapp/features/shop/screens/product_details/product_details.dart';
 import 'package:ecommerceapp/utils/constants/colors.dart';
 import 'package:ecommerceapp/utils/constants/image_strings.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';

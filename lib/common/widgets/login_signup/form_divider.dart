@@ -11,7 +11,6 @@ class TFormDivider extends StatelessWidget {
   });
   String dividerText;
 
-
   @override
   Widget build(BuildContext context) {
     final isDark = THelperFunctions.isDarkMode(context);
