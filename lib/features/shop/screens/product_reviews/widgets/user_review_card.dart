@@ -1,4 +1,4 @@
-import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded-container.dart';
+import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerceapp/common/widgets/products/rating/rating_indicator.dart';
 import 'package:ecommerceapp/utils/constants/colors.dart';
 import 'package:ecommerceapp/utils/constants/image_strings.dart';
@@ -53,7 +53,7 @@ class UserReviewCard extends StatelessWidget {
         TRoundedContainer(
           backgroundColor: isDark ? TColors.kDarkGrey : TColors.kGrey,
           child: Padding(
-            padding: EdgeInsets.all(TSizes.md),
+            padding: const EdgeInsets.all(TSizes.md),
             child: Column(
               children: [
                 /// name of the company and date of reply

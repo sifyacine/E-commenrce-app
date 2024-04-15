@@ -1,4 +1,4 @@
-import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded-container.dart';
+import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerceapp/common/widgets/texts/product_title_text.dart';
 import 'package:ecommerceapp/common/widgets/texts/produt_price_text.dart';
 import 'package:ecommerceapp/common/widgets/texts/section_heading.dart';

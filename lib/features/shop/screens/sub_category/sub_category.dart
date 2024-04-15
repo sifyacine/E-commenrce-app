@@ -4,7 +4,6 @@ import 'package:ecommerceapp/common/widgets/products/product_cards/product_cards
 import 'package:ecommerceapp/common/widgets/texts/section_heading.dart';
 import 'package:ecommerceapp/utils/constants/image_strings.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SubCategoriesScreen extends StatelessWidget {

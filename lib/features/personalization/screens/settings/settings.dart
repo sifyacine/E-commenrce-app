@@ -1,6 +1,6 @@
 import 'package:ecommerceapp/common/widgets/appbar/appbar.dart';
 import 'package:ecommerceapp/common/widgets/custom_shapes/containers/primary_header_container.dart';
-import 'package:ecommerceapp/common/widgets/list_tiles/settings-menu_tile.dart';
+import 'package:ecommerceapp/common/widgets/list_tiles/settings_menu_tile.dart';
 import 'package:ecommerceapp/common/widgets/texts/section_heading.dart';
 import 'package:ecommerceapp/features/personalization/screens/profile/profile.dart';
 import 'package:ecommerceapp/features/shop/screens/cart/cart.dart';

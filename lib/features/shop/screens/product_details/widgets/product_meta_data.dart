@@ -6,11 +6,10 @@ import 'package:ecommerceapp/utils/constants/enums.dart';
 import 'package:ecommerceapp/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../../common/widgets/custom_shapes/containers/rounded-container.dart';
+import '../../../../../common/widgets/custom_shapes/containers/rounded_container.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/helpers/helper_functions.dart';
-
 class TProductMetaData extends StatelessWidget {
   const TProductMetaData({Key? key}) : super(key: key);
 
@@ -27,20 +26,23 @@ class TProductMetaData extends StatelessWidget {
           children: [
 
             /// sale tage
-            Positioned(
-              top: 12,
-              child: TRoundedContainer(
-                radius: TSizes.sm,
-                backgroundColor: TColors.secondaryColor.withOpacity(0.8),
-                padding: const EdgeInsets.symmetric(
-                    vertical: TSizes.xs, horizontal: TSizes.sm),
-                child: Text(
-                  '25%',
-                  style: Theme
-                      .of(context)
-                      .textTheme
-                      .labelLarge!
-                      .apply(color: TColors.kBlack),
+            Align(
+              alignment: Alignment.topCenter,
+              child: Padding(
+                padding: const EdgeInsets.only(top: 12),
+                child: TRoundedContainer(
+                  radius: TSizes.sm,
+                  backgroundColor: TColors.secondaryColor.withOpacity(0.8),
+                  padding: const EdgeInsets.symmetric(
+                      vertical: TSizes.xs, horizontal: TSizes.sm),
+                  child: Text(
+                    '25%',
+                    style: Theme
+                        .of(context)
+                        .textTheme
+                        .labelLarge!
+                        .apply(color: TColors.kBlack),
+                  ),
                 ),
               ),
             ),
@@ -105,7 +107,7 @@ class TProductMetaData extends StatelessWidget {
           children: [
             TCircularImage(image: TImages.nikeIcon, width: 32, height: 32, backgroundColor: isDark ? TColors.kGrey : TColors.white, ),
             const SizedBox(width: TSizes.spaceBtwItems,),
-            TBrandTitleWithVerifiedIcon(
+            const TBrandTitleWithVerifiedIcon(
               title: "Nike",
               brandTextSize: TextSizes.medium,
               textAlign: TextAlign.start,

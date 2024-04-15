@@ -1,5 +1,4 @@
 import 'package:ecommerceapp/common/widgets/appbar/appbar.dart';
-import 'package:ecommerceapp/features/personalization/screens/address/addresses.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';

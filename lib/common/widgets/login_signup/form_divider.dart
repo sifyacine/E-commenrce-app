@@ -2,14 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../../../utils/constants/colors.dart';
 import '../../../utils/helpers/helper_functions.dart';
-
-
 class TFormDivider extends StatelessWidget {
-  TFormDivider({
-  super.key,
-  required this.dividerText,
-  });
-  String dividerText;
+  final String dividerText;
+
+  const TFormDivider({
+    Key? key,
+    required this.dividerText,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

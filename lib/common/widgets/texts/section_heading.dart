@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class TSectionHeading extends StatelessWidget {
   const TSectionHeading({
   super.key,
@@ -26,7 +27,7 @@ class TSectionHeading extends StatelessWidget {
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
         ),
-        if(showActionButton) TextButton(onPressed: () {onPressed;}, child: Text(buttonTitle)),
+        if(showActionButton) TextButton(onPressed: onPressed, child: Text(buttonTitle)),
       ],
     );
   }

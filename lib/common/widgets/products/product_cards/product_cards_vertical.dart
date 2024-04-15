@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../custom_shapes/containers/rounded-container.dart';
+import '../../custom_shapes/containers/rounded_container.dart';
 import '../../icon/circular_icon.dart';
 import '../../texts/brandicon_verify_button.dart';
 import '../../texts/product_title_text.dart';

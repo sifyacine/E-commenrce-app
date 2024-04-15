@@ -4,7 +4,7 @@ import 'package:ecommerceapp/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../common/widgets/custom_shapes/containers/rounded-container.dart';
+import '../../../../../common/widgets/custom_shapes/containers/rounded_container.dart';
 
 class TSingleAddress extends StatelessWidget {
   const TSingleAddress({

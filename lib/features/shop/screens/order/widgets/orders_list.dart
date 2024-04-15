@@ -1,8 +1,7 @@
-import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded-container.dart';
+import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerceapp/utils/constants/colors.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';
 import 'package:ecommerceapp/utils/helpers/helper_functions.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 

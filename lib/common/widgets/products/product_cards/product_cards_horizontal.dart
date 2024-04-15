@@ -1,4 +1,4 @@
-import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded-container.dart';
+import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerceapp/common/widgets/images/rounded_images.dart';
 import 'package:ecommerceapp/common/widgets/texts/brandicon_verify_button.dart';
 import 'package:ecommerceapp/common/widgets/texts/product_title_text.dart';
@@ -99,7 +99,7 @@ class TProductCardsHorizontal extends StatelessWidget {
                 const Spacer(),
 
                 Padding(
-                  padding: EdgeInsets.symmetric(horizontal: TSizes.sm),
+                  padding: const EdgeInsets.symmetric(horizontal: TSizes.sm),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [

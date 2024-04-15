@@ -1,7 +1,7 @@
 import 'package:ecommerceapp/common/widgets/appbar/appbar.dart';
-import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded-container.dart';
+import 'package:ecommerceapp/common/widgets/custom_shapes/containers/rounded_container.dart';
 import 'package:ecommerceapp/features/shop/screens/cart/widget/cart_item.dart';
-import 'package:ecommerceapp/features/shop/screens/checkout/widgets/billing-address_section.dart';
+import 'package:ecommerceapp/features/shop/screens/checkout/widgets/billing_address_section.dart';
 import 'package:ecommerceapp/features/shop/screens/checkout/widgets/billing_amount_section.dart';
 import 'package:ecommerceapp/features/shop/screens/checkout/widgets/billing_payment_section.dart';
 import 'package:ecommerceapp/utils/constants/colors.dart';
@@ -46,24 +46,24 @@ class CheckoutScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(TSizes.sm),
                 showBorder: true,
                 backgroundColor: isDark ? TColors.kBlack : TColors.white,
-                child: Column(
+                child: const Column(
                   children: [
                     /// pricing
-                    const TBillingAmountSection(),
-                    const SizedBox(height: TSizes.spaceBtwItems),
+                    TBillingAmountSection(),
+                    SizedBox(height: TSizes.spaceBtwItems),
 
                     /// divider
-                    const Divider(),
-                    const SizedBox(height: TSizes.spaceBtwItems),
+                    Divider(),
+                    SizedBox(height: TSizes.spaceBtwItems),
 
                     /// payment methods
                     TBillingPaymentSection(),
-                    const SizedBox(height: TSizes.spaceBtwItems),
+                    SizedBox(height: TSizes.spaceBtwItems),
 
 
                     /// address
                     TBillingAddressSection(),
-                    const SizedBox(height: TSizes.spaceBtwItems),
+                    SizedBox(height: TSizes.spaceBtwItems),
                   ],
                 ),
               ),

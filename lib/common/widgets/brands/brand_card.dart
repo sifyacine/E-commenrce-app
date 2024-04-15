@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../utils/constants/enums.dart';
 import '../../../utils/constants/image_strings.dart';
 import '../../../utils/constants/sizes.dart';
-import '../custom_shapes/containers/rounded-container.dart';
+import '../custom_shapes/containers/rounded_container.dart';
 import '../images/circular_images.dart';
 import '../texts/brandicon_verify_button.dart';
 

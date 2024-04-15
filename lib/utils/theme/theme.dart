@@ -2,8 +2,8 @@
 import 'package:ecommerceapp/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:ecommerceapp/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:ecommerceapp/utils/theme/custom_themes/check_box_theme.dart';
-import 'package:ecommerceapp/utils/theme/custom_themes/chip-theme.dart';
-import 'package:ecommerceapp/utils/theme/custom_themes/elevated_botton-theme.dart';
+import 'package:ecommerceapp/utils/theme/custom_themes/chip_theme.dart';
+import 'package:ecommerceapp/utils/theme/custom_themes/elevated_botton_theme.dart';
 import 'package:ecommerceapp/utils/theme/custom_themes/outlined_button_theme.dart';
 import 'package:ecommerceapp/utils/theme/custom_themes/text_field_theme.dart';
 import 'package:ecommerceapp/utils/theme/custom_themes/text_theme.dart';
