@@ -3,6 +3,8 @@ import 'package:ecommerceapp/common/widgets/custom_shapes/containers/primary_hea
 import 'package:ecommerceapp/common/widgets/list_tiles/settings-menu_tile.dart';
 import 'package:ecommerceapp/common/widgets/texts/section_heading.dart';
 import 'package:ecommerceapp/features/personalization/screens/profile/profile.dart';
+import 'package:ecommerceapp/features/shop/screens/cart/cart.dart';
+import 'package:ecommerceapp/features/shop/screens/order/order.dart';
 import 'package:ecommerceapp/utils/constants/colors.dart';
 import 'package:ecommerceapp/utils/constants/sizes.dart';
 import 'package:flutter/material.dart';
@@ -54,8 +56,8 @@ class SettingsPage extends StatelessWidget {
                   const SizedBox(height: TSizes.spaceBtwItems,),
 
                   TSettingsMenuTile(icon: Iconsax.safe_home,title: 'My Addresses', subtitle: 'Set shopping delivery address', onTab: (){ Get.to(() => const AddressesScreen());},),
-                  TSettingsMenuTile(icon: Iconsax.shopping_cart,title: 'My Cart', subtitle: 'Add remove products and move to checkout', onTab: (){},),
-                  TSettingsMenuTile(icon: Iconsax.bag_tick,title: 'My Orders', subtitle: 'In-progress and completed orders ', onTab: (){},),
+                  TSettingsMenuTile(icon: Iconsax.shopping_cart,title: 'My Cart', subtitle: 'Add remove products and move to checkout', onTab: (){ Get.to(() => const CartScreen());},),
+                  TSettingsMenuTile(icon: Iconsax.bag_tick,title: 'My Orders', subtitle: 'In-progress and completed orders ', onTab: (){ Get.to(() => const OrderScreen());},),
                   TSettingsMenuTile(icon: Iconsax.bank,title: 'Bank Account', subtitle: 'Withdraw balance to registered bank account', onTab: (){},),
                   TSettingsMenuTile(icon: Iconsax.discount_shape ,title: 'My Coupons', subtitle: 'List of all discount coupons', onTab: (){},),
                   TSettingsMenuTile(icon: Iconsax.notification ,title: 'Notifications', subtitle: 'Set any kind of notification messages', onTab: (){},),

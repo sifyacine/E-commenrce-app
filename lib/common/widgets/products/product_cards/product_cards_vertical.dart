@@ -33,7 +33,7 @@ class TProductCardsVertical extends StatelessWidget {
         ),
         child: Column(
           children: [
-            /// Thumbnail, wishlistbutton, discount tag
+            /// Thumbnail, whitelists, discount tag
             TRoundedContainer(
               height: 180,
               padding: const EdgeInsets.all(TSizes.sm),

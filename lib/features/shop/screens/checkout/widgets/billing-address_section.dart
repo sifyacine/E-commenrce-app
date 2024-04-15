@@ -10,7 +10,7 @@ class TBillingAddressSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        TSectionHeading(title: "Payment Method", buttonTitle: "change", showActionButton: true, onPressed: (){},),
+        TSectionHeading(title: "Addresses List", buttonTitle: "change", showActionButton: true, onPressed: (){},),
         Text('sif Yacine', style: Theme.of(context).textTheme.bodyLarge,),
 
         Row(
